@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div id="captcha">
+    <div id="title" class="titleBox">Select all horses that are watching you</div>
+    <div class="captchaRow">
+      <div class="captchaBox" data-correct="true"><img src="image1.webp"></div>
+      <div class="captchaBox" data-correct="true"><img src="image2.webp"></div>
+    </div>
+    <div class="captchaRow">
+      <div class="captchaBox" data-correct="true"><img src="image3.webp"></div>
+      <div class="captchaBox" data-correct="true"><img src="image4.webp"></div>
+    </div>
+  </div>
+  <button id="submit" disabled>Unlock</button>
+  <p id="result" style="display: none;">Correct, all horses are watching.</p>
+  <script src="script.js"></script>
+</body>
+</html>
+
